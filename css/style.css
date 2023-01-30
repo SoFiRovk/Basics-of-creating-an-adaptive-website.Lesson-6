@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: lato;
+}
+
+.header {
+    background-color: #222222;
+    min-height: 75px;
+}
+
+.icons_img {
+    display: flex;
+    justify-content: right;
+}
+
+.icons {
+    display: inline;
+    margin-right: 33px;
+}
+
+.header-promo {
+    height: 764px;
+    display: flex;
+    justify-content: center;
+    background-color: #F1E4E6;
+    margin-bottom: 65px;
+}
+
+.sections {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 96px;
+}
+
+.section_img {
+    list-style-type: none;
+    /* align-items: center; */
+    display: inline;
+    height: 100px;
+    width: 150px;
+    margin: 0px 30px;
+}
+
+.section_img-4 {
+    /* list-style-type: none;
+    justify-content: center;
+    width: 150px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.clothing_cards-styles {
+    display: grid;
+    grid-template-columns: repeat(3, 362px);
+    gap: 30px;
+    justify-content: center;
+}
+
+
+.clothing-titl {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.clothing-txt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #9F9F9F;
+}
+
+.clothing_cards-style {
+
+    margin-top: 47px;
+    width: 100%;
+    max-width: 360px;
+    outline: 10 px solid rgb(22, 4, 41);
+
+}
+
+.clothing_cards-img {}
+
+.clothing_cards-titl {
+    margin-top: 24px;
+    padding: 16px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.clothing_cards-txt {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+
+.clothing_cards-txt-cen {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    order: 2;
+    flex-grow: 0;
+    margin: 18px;
+}
+
+.cards-list-item-btn-box {
+    text-align: center;
+}
+
+.cards-list-item-button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    border: #F26376;
+    background: #FFFFFF;
+}
